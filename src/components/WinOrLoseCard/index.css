@@ -1,0 +1,76 @@
+/* Write your code here. */
+.won-lose {
+  width: 180px;
+}
+.game-status {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+}
+.score-label {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.score-card {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #6a59ff;
+  font-weight: 600;
+  padding-top: 0px;
+}
+.play-again-button {
+  border: none;
+  border-radius: 10px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px;
+}
+.win-lose-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.details-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .win-lose-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ffffff30;
+    background-color: #ffffff30;
+    border-radius: 20px;
+    width: 80%;
+    padding: 80px;
+  }
+  .image-section {
+    order: 1;
+  }
+  .game-status {
+    font-size: 42px;
+  }
+  .score-label {
+    font-size: 28px;
+  }
+  .score-card {
+    font-size: 28px;
+  }
+  .won-lose {
+    width: 250px;
+  }
+}
